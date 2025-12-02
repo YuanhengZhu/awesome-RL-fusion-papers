@@ -41,7 +41,8 @@
 > 同样使用了课程学习，在WEST中使用RL训练控制策略。
 
 [Wang2024] Active Disruption Avoidance and Trajectory Design for Tokamak Ramp-downs with Neural Differential Equations and Reinforcement Learning. arXiv, 2024.
-> 使用强化学习控制等离子体安全ramp-down。不过好像没提出新RL方法，主要讨论是集中在simulator上。
+[Wang2025] Active ramp-down control and trajectory design for tokamaks with neural differential equations and reinforcement learning. Commun Phys, 2025, 8, 231. [DOI](https://doi.org/10.1038/s42005-025-02146-6)
+> 使用强化学习控制等离子体安全ramp-down。不过好像没提出新RL方法，主要讨论是集中在simulator上。（这两篇应该是同一篇）
 
 [Paruchuri2025] Density regulation with disruption avoidance in next-generation tokamaks using a safe reinforcement learning-based controller. Fusion Engineering and Design, 2025, 216, 115064. [DOI](https://doi.org/10.1016/j.fusengdes.2025.115064).
 > 主要贡献是引入安全强化学习来进行控制。
