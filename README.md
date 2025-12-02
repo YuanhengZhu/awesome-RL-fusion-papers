@@ -28,6 +28,9 @@
 [Seo2024] Avoiding fusion plasma tearing instability with deep reinforcement learning. Nature, 2024, 626, pp. 746–751. [DOI](https://doi.org/10.1038/s41586-021-04301-9)
 > 使用强化学习进行高层控制（控制beam power和triangularity）以防止tearing instability。
 
+[Brendan2024] Towards practical reinforcement learning for tokamak magnetic control.  Fusion Engineering and Design, 2024, 200, 114161. [DOI](https://doi.org/10.1016/j.fusengdes.2024.114161).
+> 改进了一下deepmind Nature那篇工作
+
 
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
