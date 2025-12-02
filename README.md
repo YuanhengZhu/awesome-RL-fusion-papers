@@ -34,6 +34,9 @@
 [Dubbioso2023] A Deep Reinforcement Learning approach for Vertical Stabilization of tokamak plasmas. Fusion Engineering and Design, 2023, 194, 113725. [DOI](https://doi.org/10.1016/j.fusengdes.2023.113725).
 > 用DDPG训了一个Vertical Stabilization Agent，环境应该是通过微分方程求解模拟的。动作是线圈中的电压。
 
+[Kerboua-Benlarbi2025] Curriculum Reinforcement Learning for Tokamak Control. [DOI](https://doi.org/10.1007/978-981-97-9536-9_3).
+> 用课程学习加速了控制策略的学习。（注：这个官网引用是引用成一本书的一部分，我这里就先只放题目了）
+
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
 >核心内容：早期神经网络用于托卡马克等离子体的实时控制，是智能控制在核聚变领域的早期探索。
