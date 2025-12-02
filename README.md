@@ -50,6 +50,9 @@
 [Seo2022] Development of an operation trajectory design algorithm for control of multiple 0D parameters using deep reinforcement learning in KSTAR. Nuclear Fusion, 2022, 62, 086049. [DOI](https://doi.org/10.1088/1741-4326/ac79be)
 > 使用RL控制，使一些参数达到任意预先指定的目标。
 
+[Subbotin2025] Reconstruction-free magnetic control of DIII-D plasma with deep reinforcement learning. arXiv, 2025. 
+> “第一个将深度强化学习用于中等大小的DIII-D tokamak等离子体磁控制的工作”，用的SAC算法。
+
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
 >核心内容：早期神经网络用于托卡马克等离子体的实时控制，是智能控制在核聚变领域的早期探索。
