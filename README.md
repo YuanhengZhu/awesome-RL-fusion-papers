@@ -25,6 +25,9 @@
 [Seo2021] Feedforward beta control in the KSTAR tokamak by deep reinforcement learning, *Nucl. Fusion*, 2021, 61, p.106010. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ac121b)
 >核心内容：通过深度RL实现KSTAR托卡马克的前馈β控制，提升了聚变前馈控制的灵活性。
 
+[Seo2024] Avoiding fusion plasma tearing instability with deep reinforcement learning. Nature, 2024, 626, pp. 746–751. [DOI](https://doi.org/10.1038/s41586-021-04301-9)
+> 使用强化学习进行高层控制（控制beam power和triangularity）以防止tearing instability。
+
 
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
