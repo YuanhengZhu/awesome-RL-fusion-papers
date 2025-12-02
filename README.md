@@ -31,6 +31,8 @@
 [Brendan2024] Towards practical reinforcement learning for tokamak magnetic control.  Fusion Engineering and Design, 2024, 200, 114161. [DOI](https://doi.org/10.1016/j.fusengdes.2024.114161).
 > 改进了一下deepmind Nature那篇工作
 
+[Dubbioso2023] A Deep Reinforcement Learning approach for Vertical Stabilization of tokamak plasmas. Fusion Engineering and Design, 2023, 194, 113725. [DOI](https://doi.org/10.1016/j.fusengdes.2023.113725).
+> 用DDPG训了一个Vertical Stabilization Agent，环境应该是通过微分方程求解模拟的。动作是线圈中的电压。
 
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
