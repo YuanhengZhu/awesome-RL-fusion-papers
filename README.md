@@ -53,6 +53,6 @@
 [Abbate2021] Data-driven profile prediction for DIII-D, *Nucl. Fusion*, 2021, 61, p.046027. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/abe08d)
 >核心内容：采用数据驱动方法（机器学习）实现DIII-D托卡马克的剖面预测，是机器学习在聚变参数预测中的应用。
 
-
-
+[Wu2025] High-fidelity data-driven dynamics model for reinforcement learning-based control in HL-3 tokamak. Commun Phys, 2025, 8, 393. [DOI](https://doi.org/10.1038/s42005-025-02302-y).
+> 一个数据驱动的simulator
 
