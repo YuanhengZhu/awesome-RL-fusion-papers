@@ -40,6 +40,9 @@
 [Kerboua-Benlarbi2024] Artificial intelligence and fusion plasma control : application to the WEST tokamak. HAL, 2024, 2024COAZ5060.
 > 同样使用了课程学习，在WEST中使用RL训练控制策略。
 
+[Wang2024] Active Disruption Avoidance and Trajectory Design for Tokamak Ramp-downs with Neural Differential Equations and Reinforcement Learning. arXiv, 2024.
+> 使用强化学习控制等离子体安全ramp-down。不过好像没提出新RL方法，主要讨论是集中在simulator上。
+
 ## 可控核聚变中的机器学习/神经网络应用
 [Bishop1995] Real time control of a tokamak plasma using neural networks, *Neural Comput.*, 1995, 7, pp.206–217.[DOI](https://direct.mit.edu/neco/article-abstract/7/1/206/5840/Real-Time-Control-of-a-Tokamak-Plasma-Using-Neural?redirectedFrom=fulltext)
 >核心内容：早期神经网络用于托卡马克等离子体的实时控制，是智能控制在核聚变领域的早期探索。
