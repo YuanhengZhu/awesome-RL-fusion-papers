@@ -171,3 +171,41 @@
 [Wu2025]High-fidelity data-driven dynamics model for reinforcement learning-based control in HL-3 tokamak[J]. Communications Physics, 2025, 8(1): 393.[DOI](https://www.nature.com/articles/s42005-025-02302-y)
 
 > data-driven simulator + RL 控制。用实验数据构建高保真动力学模型，为 RL 提供准确的仿真tokamak模型
+
+
+## Github Code
+### 使用RL训练控制策略
+- https://github.com/jaem-seo/AI_tokamak_control
+> 可以运行，但这个不是训练，他是基于一个可视化模拟器（ https://github.com/jaem-seo/KSTAR_tokamak_simulator ）提供的实时ai控制可视化（他提供了现成的模型）
+- https://github.com/danieleschmidt/tokamak-rl-control-suite
+> 据说是一个基于sb3的rl控制套件，实际跑不动，连README里的basic training example都会报错
+> 
+> 已经给他提issue了（但没有回复）
+- https://github.com/ZINZINBIN/Tokamak-Plasma-Operation-Control-based-on-RL
+> 首先，这个仓库没有给训练参数，代码里有一组默认的参数，不知道能不能用，我试图去搜了一下论文，根本搜不到，只有一个poster
+> 
+> 第二，这个仓库没有requirements
+> 
+> 第三，这个仓库不提供数据集
+- https://github.com/LucasCJYSDL/Offline-RL-Kit-for-Nuclear-Fusion
+> 一个离线训练的仓库，也跑不动，因为它同时需要数据集和dynamic model
+
+### 环境仿真器
+- https://github.com/jaem-seo/KSTAR_tokamak_simulator
+> 和前面那个能跑的代码是一起的，应该也能跑
+> 
+> 但这里提到的论文所里好像没买，看不了
+- https://github.com/google-deepmind/torax
+> 能跑，但我不太确定这个咋用
+- https://github.com/IRFM/METIS
+> matlab的代码，先不做尝试了
+- https://github.com/ZINZINBIN/KSTAR-data-driven-tokamak-simulator
+> 没有readme，也没有demo，但感觉可能可以跑，因为其他东西基本齐全
+- https://github.com/yuina822/amaterasu
+> 可以跑，似乎是一个基于微分方程的模拟器，没有论文，无法确定其精度如何
+- https://github.com/ArvinSKushwaha/Plasma-Simulator
+> c++写的，看起来还没完成
+- https://github.com/cticenhour/EELS
+> 看代码应该也是c++写的，没文档
+- https://github.com/nikaslukyanov/Interactive-Tokamak-Simulator
+> 一个基于OpenFUSIONToolkit（ https://github.com/OpenFUSIONToolkit/OpenFUSIONToolkit ）的可视化软件，暂时不确定是否可用
