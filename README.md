@@ -20,6 +20,9 @@
 
 > **长期/稳态跟踪控制**。在Degrave基础上改进 RL 训练与控制精度，增强长期追踪能力（减少 steady-state 偏差）。
 
+[Dubbioso2023]A deep reinforcement learning approach for vertical stabilization of tokamak plasmas[J]. Fusion Engineering and Design, 2023, 194: 113725.[DOI](https://www.sciencedirect.com/science/article/pii/S0920379623003083)
+
+> 等离子体磁控问题中垂直稳定控制问题。用DDPG训了一个Vertical Stabilization Agent，环境应该是通过微分方程求解模拟的。动作是线圈中的电压。
 [Subbotin2025] Reconstruction-free magnetic control of DIII-D plasma with deep reinforcement learning. arXiv, 2025.
 
 > 深度RL用于实时磁控制，提升鲁棒性并处理放电过程中包括平顶在内的整体控制任务，旨在**维持等离子体目标形状/位置**。“第一个将深度强化学习用于中等大小的DIII-D tokamak等离子体磁控制的工作”，用的SAC算法。
