@@ -20,6 +20,10 @@
 
 > **长期/稳态跟踪控制**。在Degrave基础上改进 RL 训练与控制精度，增强长期追踪能力（减少 steady-state 偏差）。
 
+[Kerboua-Benlarbi2024] Artificial intelligence and fusion plasma control : application to the WEST tokamak. HAL, 2024, 2024COAZ5060.
+
+> 使用了课程学习，在WEST中使用RL训练控制策略。在任务属性上与 DeGrave2022(TCV) 相似，都是**磁控制**。
+
 [Dubbioso2023]A deep reinforcement learning approach for vertical stabilization of tokamak plasmas[J]. Fusion Engineering and Design, 2023, 194: 113725.[DOI](https://www.sciencedirect.com/science/article/pii/S0920379623003083)
 
 > 等离子体磁控问题中垂直稳定控制问题。用DDPG训了一个Vertical Stabilization Agent，环境应该是通过微分方程求解模拟的。动作是线圈中的电压。
