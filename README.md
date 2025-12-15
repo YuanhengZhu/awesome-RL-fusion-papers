@@ -6,11 +6,77 @@
 
 
 
+## 平顶层控制
+
+### 磁流体（MHD）平衡、位置与形状控制
+
+> 平顶阶段最基础的任务是维持等离子体的形状（如拉长比、三角变形）和位置稳定。
+
+[Degrave2022]Magnetic control of tokamak plasmas through deep reinforcement learning[J]. Nature, 2022, 602(7897): 414-419.[DOI](https://www.nature.com/articles/s41586-021-04301-9)
+
+> **平顶阶段磁场跟踪与维持控制**。RL 直接驱动 TCV 的控制线圈，实现等离子体位置与形状跟踪/维持，且实现复杂构型（例如双液滴）。RL 控制真实托卡马克的里程碑
+
+[Brendan2024]Towards practical reinforcement learning for tokamak magnetic control[J]. Fusion Engineering and Design, 2024, 200: 114161.[DOI](https://www.sciencedirect.com/science/article/pii/S0920379624000140)
+
+> **长期/稳态跟踪控制**。在Degrave基础上改进 RL 训练与控制精度，增强长期追踪能力（减少 steady-state 偏差）。
+
+[Subbotin2025] Reconstruction-free magnetic control of DIII-D plasma with deep reinforcement learning. arXiv, 2025.
+
+> 深度RL用于实时磁控制，提升鲁棒性并处理放电过程中包括平顶在内的整体控制任务，旨在**维持等离子体目标形状/位置**。“第一个将深度强化学习用于中等大小的DIII-D tokamak等离子体磁控制的工作”，用的SAC算法。
+
+### 核心参数与性能控制
+
+> 平顶阶段的目标是获得高性能输出，涉及对 $\beta$、密度、温度的控制（这些参数是0D参数，关注平均值和总量）
+
+[Seo2021] Feedforward beta control in the KSTAR tokamak by deep reinforcement learning, *Nucl. Fusion*, 2021, 61, p.106010. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ac121b)
+
+> 通过深度RL实现KSTAR托卡马克的前馈β控制，提升了聚变前馈控制的灵活性。$\beta$（等离子体压强与磁压强之比）是衡量聚变性能的关键指标，**$\beta$** **控制**是典型的平顶阶段高性能维持任务。
+
+[Zhang2024]Real-time feedback control of β p based on deep reinforcement learning on east[J]. Plasma Physics and Controlled Fusion, 2024, 66(5): 055014.[DOI](https://iopscience.iop.org/article/10.1088/1361-6587/ad3749/meta)
+
+> 在 EAST 上实现极向比压 **β_p** 的实时反馈控制
+
+[Wakatsuki2021] Ion temperature gradient control using reinforcement learning technique, *Nucl. Fusion*, 2021, 61, p.046036. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/abe68d)
+
+> 用RL实现离子**温度梯度控制**，拓展了RL在聚变参数控制中的应用场景。离子温度梯度（ITG）通过影响湍流输运来决定约束性能，在平顶阶段优化能量约束时间。
+
+[Seo2024]Avoiding fusion plasma tearing instability with deep reinforcement learning[J]. Nature, 2024, 626(8000): 746-751.[DOI](https://www.nature.com/articles/s41586-024-07024-9)
+
+> RL 主动识别并抑制撕裂模。撕裂模是限制托卡马克平顶阶段性能（$\beta$ 极限）和导致破裂的主要原因。该工作通过控制**束功率**等来避免
+
+[Paruchuri2025] Density regulation with disruption avoidance in next-generation tokamaks using a safe reinforcement learning-based controller. Fusion Engineering and Design, 2025, 216, 115064. [DOI](https://doi.org/10.1016/j.fusengdes.2025.115064).
+
+> 主要贡献是引入安全强化学习来进行控制。**密度控制**是平顶阶段的核心问题，特别是在规避密度极限的同时维持高密度。
+
+
+
+[Wakatsuki2023]Simultaneous control of safety factor profile and normalized beta for JT-60SA using reinforcement learning[J]. Nuclear Fusion, 2023, 63(7): 076017.[DOI](https://iopscience.iop.org/article/10.1088/1741-4326/acd393/meta)
+
+> 用 RL 同时控制安全因子剖面q-profile 与归一化$\beta_N$，解决多目标**剖面控制**问题。剖面问题的参数是1D参数，关注物理量在空间中的分布。
+
+### 其他
+
+[Seo2022]Development of an operation trajectory design algorithm for control of multiple 0D parameters using deep reinforcement learning in KSTAR[J]. Nuclear Fusion, 2022, 62(8): 086049.[DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ac79be/meta)
+
+> 在 KSTAR 上用 deep RL 同时控制多种电磁参量，自动生成 tokamak 的操作序列，规划整段放电。平顶维持是其中的核心部分。
+
+[Char2023] Offline Model-Based Reinforcement Learning for Tokamak Control, *NeurIPS*, 2023, 211, pp.1357 - 1372. [DOI](https://proceedings.mlr.press/v211/char23a.html)
+
+> 提出离线模型基强化学习算法，解决托卡马克控制中“数据获取成本高”的问题，最终部署到DIII-D装置。算法本身可以用于平顶阶段**的控制策略训练，但关注点是离线学习与数据效率，而不是场景阶段本身。
+
+[Wu2025]High-fidelity data-driven dynamics model for reinforcement learning-based control in HL-3 tokamak[J]. Communications Physics, 2025, 8(1): 393.[DOI](https://www.nature.com/articles/s42005-025-02302-y)
+
+> data-driven simulator + RL 控制。用实验数据构建高保真动力学模型，为 RL 提供准确的仿真tokamak模型。用到HL-3上
+
+
+
+
+
 ## 托卡马克等离子体控制（强化学习应用）
 [DeGrave2022] Magnetic control of tokamak plasmas through deep reinforcement learning, *Nature*, 2022, 602(7897), pp.414-419. [DOI](https://doi.org/10.1038/s41586-021-04301-9)
 >核心内容：用深度强化学习实现托卡马克19个磁线圈的自主控制，精准调控等离子体位置/形状，还实现了双等离子体“液滴”构型，是RL在核聚变领域的里程碑成果。
 
-[Chen2023] Offline Model-Based Reinforcement Learning for Tokamak Control, *NeurIPS*, 2023, 211, pp.1357 - 1372. [DOI](https://proceedings.mlr.press/v211/char23a.html)
+[Char2023] Offline Model-Based Reinforcement Learning for Tokamak Control, *NeurIPS*, 2023, 211, pp.1357 - 1372. [DOI](https://proceedings.mlr.press/v211/char23a.html)
 >核心内容：提出离线模型基强化学习算法，解决托卡马克控制中“数据获取成本高”的问题，提升了RL算法在核聚变场景的实用性。
 
 [Katz2024] Learning plasma dynamics and robust rampdown trajectories with predict-first experiments at TCV, *Nature Communications*, 2024, 15(1), pp.1-11. [DOI](https://www.nature.com/articles/s41467-025-63917-x)
@@ -120,7 +186,7 @@
 
 > RL 直接驱动 TCV 的控制线圈，实现复杂形状。RL 控制真实托卡马克的里程碑
 
-[Tracey2024]Towards practical reinforcement learning for tokamak magnetic control[J]. Fusion Engineering and Design, 2024, 200: 114161.[DOI](https://www.sciencedirect.com/science/article/pii/S0920379624000140)
+[Brendan2024]Towards practical reinforcement learning for tokamak magnetic control[J]. Fusion Engineering and Design, 2024, 200: 114161.[DOI](https://www.sciencedirect.com/science/article/pii/S0920379624000140)
 
 > 在Degrave等人（2022）基础上改进 RL 训练与控制精度
 
