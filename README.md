@@ -62,7 +62,7 @@
 
 [Char2023] Offline Model-Based Reinforcement Learning for Tokamak Control, *NeurIPS*, 2023, 211, pp.1357 - 1372. [DOI](https://proceedings.mlr.press/v211/char23a.html)
 
-> 提出离线模型基强化学习算法，解决托卡马克控制中“数据获取成本高”的问题，最终部署到DIII-D装置。算法本身可以用于平顶阶段**的控制策略训练，但关注点是离线学习与数据效率，而不是场景阶段本身。
+> 提出离线模型基强化学习算法，解决托卡马克控制中“数据获取成本高”的问题，最终部署到DIII-D装置。算法本身可以用于平顶阶段的控制策略训练，但关注点是离线学习与数据效率，而不是场景阶段本身。
 
 [Wu2025]High-fidelity data-driven dynamics model for reinforcement learning-based control in HL-3 tokamak[J]. Communications Physics, 2025, 8(1): 393.[DOI](https://www.nature.com/articles/s42005-025-02302-y)
 
