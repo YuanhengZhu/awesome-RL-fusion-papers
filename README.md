@@ -4,7 +4,11 @@
 
 [AuthorYearPub] title, publication, year, vol, no, pp. 
 
+## 爬升智能控制
 
+[Wakatsuki2019] Safety factor profile control with reduced central solenoid flux consumption during plasma current ramp-up phase using a reinforcement learning technique, *Nucl. Fusion*, 2019, 59, p.066022. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ab1571)
+
+>针对 DEMO 反应堆等离子体电流爬升阶段，提出基于 ACER 强化学习的控制方案，通过自适应优化电子温度反馈增益与目标剖面，在无需测量有效电荷的情况下，精准控制正 / 弱 / 反剪切等安全因子剖面，同时将中心螺线管电阻性磁通量消耗降低 40% 以上。
 
 ## 平顶层控制
 
@@ -76,9 +80,15 @@
 
 > data-driven simulator + RL 控制。用实验数据构建高保真动力学模型，为 RL 提供准确的仿真tokamak模型。用到HL-3上
 
+## 回落阶段智能控制
 
+[Wang2025]Active ramp-down control and trajectory design for tokamaks with neural differential equations and reinforcement learning[J]. Communications Physics, 2025, 8(1): 231.[DOI](https://www.nature.com/articles/s42005-025-02146-6)
 
+> 提出融合神经微分方程与强化学习的托卡马克等离子体回落阶段控制方案，基于SPARC装置仿真数据集构建PopDownGym混合物理-机器学习训练环境，通过近段策略优化算法（PPO）和进化算法（ES）等强化学习方法实现轨迹设计辅助、实时反馈控制及鲁棒前馈轨迹优化，在避免破裂相关约束的同时安全将等离子体电流降至2 MA以下，适配物理不确定性与动态约束调整需求。
 
+[Katz2024] Learning plasma dynamics and robust rampdown trajectories with predict-first experiments at TCV, *Nature Communications*, 2024, 15(1), pp.1-11. [DOI](https://www.nature.com/articles/s41467-025-63917-x)
+
+>基于 TCV 装置实验数据，提出融合神经状态空间模型（NSSM）与强化学习的等离子体回落阶段鲁棒轨迹设计方案，仅需少量高性能工况数据即可精准预测等离子体动力学，通过增量重训练与不确定性建模提升轨迹对控制误差的鲁棒性，成功实现高 β_N 等离子体的安全回落及 20% 电流提升的小范围外推实验，显著降低终止时的等离子体电流与储能。
 
 ## 托卡马克等离子体控制（强化学习应用）
 [DeGrave2022] Magnetic control of tokamak plasmas through deep reinforcement learning, *Nature*, 2022, 602(7897), pp.414-419. [DOI](https://doi.org/10.1038/s41586-021-04301-9)
