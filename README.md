@@ -4,7 +4,7 @@
 
 [AuthorYearPub] title, publication, year, vol, no, pp. 
 
-## 爬升智能控制
+## 爬升阶段智能控制
 
 [Wakatsuki2019] Safety factor profile control with reduced central solenoid flux consumption during plasma current ramp-up phase using a reinforcement learning technique, *Nucl. Fusion*, 2019, 59, p.066022. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ab1571)
 
