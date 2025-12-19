@@ -84,7 +84,7 @@
 
 [Wang2025]Active ramp-down control and trajectory design for tokamaks with neural differential equations and reinforcement learning[J]. Communications Physics, 2025, 8(1): 231.[DOI](https://www.nature.com/articles/s42005-025-02146-6)
 
-> 提出融合神经微分方程与强化学习的托卡马克等离子体回落阶段控制方案，基于SPARC装置仿真数据集构建PopDownGym混合物理-机器学习训练环境，通过近段策略优化算法（PPO）和进化算法（ES）等强化学习方法实现轨迹设计辅助、实时反馈控制及鲁棒前馈轨迹优化，在避免破裂相关约束的同时安全将等离子体电流降至2 MA以下，适配物理不确定性与动态约束调整需求。
+> 提出融合神经微分方程与强化学习的托卡马克等离子体回落阶段控制方案，基于SPARC装置仿真数据集构建PopDownGym混合物理-机器学习训练环境，通过近段策略优化（PPO）和进化策略（ES）等强化学习方法实现轨迹设计辅助、实时反馈控制及鲁棒前馈轨迹优化，在避免破裂相关约束的同时安全将等离子体电流降至2 MA以下，适配物理不确定性与动态约束调整需求。
 
 [Katz2024] Learning plasma dynamics and robust rampdown trajectories with predict-first experiments at TCV, *Nature Communications*, 2024, 15(1), pp.1-11. [DOI](https://www.nature.com/articles/s41467-025-63917-x)
 
