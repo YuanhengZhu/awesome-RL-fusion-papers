@@ -285,3 +285,9 @@
 > 看代码应该也是c++写的，没文档
 - https://github.com/nikaslukyanov/Interactive-Tokamak-Simulator
 > 一个基于OpenFUSIONToolkit（ https://github.com/OpenFUSIONToolkit/OpenFUSIONToolkit ）的可视化软件，暂时不确定是否可用
+- https://zenodo.org/records/16621120
+> 有训练的代码，但同样没有训练的数据
+> 
+> 也没有训练好的模型
+> 
+> 唯一能跑的就是用他提供的结果数据生成图片
