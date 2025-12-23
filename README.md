@@ -68,10 +68,6 @@
 
 ### 其他
 
-[Seo2022]Development of an operation trajectory design algorithm for control of multiple 0D parameters using deep reinforcement learning in KSTAR[J]. Nuclear Fusion, 2022, 62(8): 086049.[DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ac79be/meta)
-
-> 在 KSTAR 上用 deep RL 同时控制多种电磁参量，自动生成 tokamak 的操作序列，规划整段放电。平顶维持是其中的核心部分。
-
 [Wu2025]High-fidelity data-driven dynamics model for reinforcement learning-based control in HL-3 tokamak[J]. Communications Physics, 2025, 8(1): 393.[DOI](https://www.nature.com/articles/s42005-025-02302-y)
 
 > data-driven simulator + RL 控制。用实验数据构建高保真动力学模型，为 RL 提供准确的仿真tokamak模型。用到HL-3上
