@@ -5,6 +5,9 @@
 [AuthorYearPub] title, publication, year, vol, no, pp. 
 
 ## 爬升阶段智能控制
+[Degrave2022]Magnetic control of tokamak plasmas through deep reinforcement learning[J]. Nature, 2022, 602(7897): 414-419.[DOI](https://www.nature.com/articles/s41586-021-04301-9)
+
+>RL在电流爬升阶段驱动线圈实现各种不同的等离子体构型，精准控制了等离子体的位置与形状
 
 [Wakatsuki2019] Safety factor profile control with reduced central solenoid flux consumption during plasma current ramp-up phase using a reinforcement learning technique, *Nucl. Fusion*, 2019, 59, p.066022. [DOI](https://iopscience.iop.org/article/10.1088/1741-4326/ab1571)
 
